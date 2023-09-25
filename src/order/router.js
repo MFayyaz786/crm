@@ -1,0 +1,10 @@
+const express = require("express");
+const router = express.Router();
+const controller = require("./controller");
+router.post("/", controller.provideSim);
+router.get("/", controller.getAll);
+router.get("/getBySSN", controller.getByESN);
+router.patch("/", controller.updateOrderInfo);
+router.get("/getByMDN", controller.getByMDN);
+router.get("/history", controller.userServicesHistory);
+module.exports = router;
