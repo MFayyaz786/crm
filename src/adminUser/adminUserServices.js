@@ -380,7 +380,6 @@ const adminUserServices = {
     name,
     email,
     password,
-    RADId,
     contact,
     city,
     address,
