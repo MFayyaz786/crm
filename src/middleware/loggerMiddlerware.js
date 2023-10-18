@@ -1,4 +1,4 @@
-const Log = require("../logs/model");
+const Log = require("../log/model");
 
 async function loggerMiddleware(req, res, next) {
   const { method, path, body, params, query } = req;
