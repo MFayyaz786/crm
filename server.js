@@ -51,7 +51,7 @@ app.use(
 dotenv.config();
 app.use(express.urlencoded({ extended: true }));
 app.use(logs);
-require("./src/config/db");
+//require("./src/config/db");
 const port = process.env.PORT || 2023;
 //hit routes
 app.use((req, res, next) => {
